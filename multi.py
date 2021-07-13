@@ -1,6 +1,3 @@
-import aiohttp
-import asyncio
-import aiofiles
 import dir
 from bs4 import BeautifulSoup
 import scrap
