@@ -1,0 +1,13 @@
+= Manga Downloader
+
+Compatible Windows and Linux
+
+---
+== Downloads
+image:https://img.shields.io/github/downloads/tsihoarana/manga-scraper/v0.1-alpha/total?logo=github[link=https://github.com/tsihoarana/manga-scraper/releases/tag/v0.1-alpha, title="Download the latest of MangaDownloader", window="_blank"]
+
+== Supported site
+* mangakakalot.com +
+ex: ```https://mangakakalot.com/chapter/lc919026/chapter_1```
+* manga4life.com +
+ex: ```https://manga4life.com/read-online/Spy-X-Family-chapter-45-page-1.html```
