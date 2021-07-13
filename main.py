@@ -3,14 +3,11 @@ from tkinter import ttk
 import tkinter.scrolledtext as scrolledtext
 from tkinter import filedialog
 from multi import Multi
-import asyncio
 import threading
 import dir
 from tkinter.messagebox import showinfo
 import os
 import time
-import scrap
-import tools
 #gui sucks on linux, need update
 
 
