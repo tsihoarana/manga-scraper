@@ -32,20 +32,3 @@ class Fcloudflare:
         scraper.headers['Referer'] = referer
         return scraper.get(url)                     #response
         
-
-# this suck so don't use it
-    # def force_download_mangakakalot(url, pathname):
-        
-        # r = requests.get(url, "wb")
-        # if r.ok:
-            # with open(pathname , "wb") as f:
-                # f.write(r.content)
-        # else:
-            # url_edited = url.replace('s3.mkklcdnv3', 's8.mkklcdnv8')
-            # r = requests.get(url_edited, "wb")
-            # if r.ok:
-                # with open(pathname , "wb") as f:
-                    # f.write(r.content)
-            # else:
-                # print("request error")
-                # print(r)
