@@ -37,7 +37,7 @@ class manga4life:
         folder_Name = ''
         if response.ok:
             soup = BeautifulSoup(response.text, 'lxml')
-            scripts = soup.find_all("script")[14]
+            scripts = soup.find_all("script")[-1]
             res = re.findall('\{(.*?)\}', str(scripts) )
             CurChapter = json.loads('{' + res[13] + '}')
             res = re.findall('\"(.*?)\";', str(scripts) )
